@@ -61,7 +61,7 @@ for i in range(n):
     lst.append(random.randint(-n, n))
 print(lst)
 
-m = open("Python/domashka/file.txt", "w")
+m = open("file.txt", "w")
 len_m = random.randint(1, n)
 for i in range(len_m):
 	m.write(str(random.randint(1, n-1)))
@@ -69,7 +69,7 @@ for i in range(len_m):
 m.close()
 
 sum = 1
-f = open('Python/domashka/file.txt', 'r')
+f = open('file.txt', 'r')
 for i in range(len_m):
 	sum *= lst[int(f.readline())]
 
