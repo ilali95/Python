@@ -74,3 +74,6 @@ def num_translate(k):
 
 num = input("Ведите число: ")
 print(num_translate(num))
+
+# lst = [(i, i**2) for i in range(1, 21) if not i%2]
+# print(lst)
