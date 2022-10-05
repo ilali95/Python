@@ -1,4 +1,3 @@
-from statistics import mode
 import model_sub as model
 import view
 
